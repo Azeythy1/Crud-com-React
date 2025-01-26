@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+h1{
+    font-size: 32px;;
+    color: aliceblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: #2e2d4e;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+input{
+    outline: none;
+    width: 80%;
+    height: 30px;
+    padding: 7px;
+    border-radius: 102px;
+    border: none;
+    background-color: #635959;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.cadastro{
+    width: 40%;
+    height: 30px;
+    padding: 7px;
+    border-radius: 102px;
+    border: none;
+    background-color: #8b8ae1;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.cadastro:hover{
+    background-color: #4b47c0;
+} 
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e2d4e;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 80%;
+    color: aliceblue;
+    & span{
+        font-weight: normal;
+    }
+ 
+   
+    & span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+.action{
+    flex-direction: column;
+    background-color: transparent;
+    color: #ebebeb;
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+    text-align: start;
+    font-weight: normal;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
