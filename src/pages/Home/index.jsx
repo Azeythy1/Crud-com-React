@@ -81,7 +81,7 @@ function Home() {
 
       </form>
 
-{users.map((user)=>( 
+{users.map((user)=>(
       <div key={user.id} className='card'>
         
         <div >
